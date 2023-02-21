@@ -68,6 +68,30 @@ img {
   display: none;
 }
 
+/* ADD */
+.modal-succes {
+  display: inline-block;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
+.modal-succes p {
+  padding-top: 25vh;
+  padding-bottom: 20vh;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+.modal-succes button {
+  margin: 0 auto;
+}
+
+.modal-succes button:hover {
+  background: #3876ac;
+}
+
+
 @media screen and (max-width: 768px) {
   .topnav a {display: none;}
   .topnav a.icon {
@@ -462,6 +486,8 @@ input[data-error]::after {
   grid-column: span 8;
 }
 .hero-img img {
+  /* ADD OBJECT FIT FOR RESPOSIVE */
+  object-fit: cover;
   width: 100%;
   height: 100%;
   display: block;
